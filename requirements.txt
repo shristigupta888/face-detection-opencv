@@ -1,4 +1,3 @@
-opencv-python==4.12.0.88
 streamlit
-matplotlib
+opencv-python-headless
 numpy
