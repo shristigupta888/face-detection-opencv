@@ -2,6 +2,10 @@ import streamlit as st
 import cv2
 import numpy as np
 
+st.write("OpenCV version:", cv2.__version__)
+st.write("CascadeClassifier available:", hasattr(cv2, "CascadeClassifier"))
+
+
 # Page configuration
 st.set_page_config(
     page_title="Face Detection",
